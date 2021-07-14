@@ -71,13 +71,38 @@ h1 {
   height: 474px;
   border: 1px solid #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 10px;
 }
 .player img {
   width: 300px;
   height: 256px;
+  border-radius: 5px;
 }
-/* Third part footer info */
+/* Third part footer info style */
 
-.third-part{
-    
+footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+    height: 250px;
+    background-color:white;
+}
+.third-part-info{
+    margin-left: 0%;
+    text-align: center; 
+}
+.logo-details{
+    margin: 20px 0px;
+}
+.logo-details img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-icon{
+    color: #AAAEBA;
+}
+.copyright p{
+    font-weight: 500;
 }
