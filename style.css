@@ -92,14 +92,14 @@ h1:hover{
 }
 /* Creative part for trophies */
 #trophy-list{
-    text-align: center;
+    text-align: left;
     color: goldenrod;
     font-size: 700;
     margin-top: 40px;
 }
 .trophies {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr) 50%;
     grid-row-gap: 20px;
     grid-column-gap: 30px;
    
@@ -116,6 +116,11 @@ h1:hover{
     width: 240px;
     height: 200px;
     border-radius: 5px;
+  }
+  /* second part of creative area */
+  .super-video p{
+    font-weight: 550;
+    font-size: 20px;
   }
 
 /* Third part footer info style */
