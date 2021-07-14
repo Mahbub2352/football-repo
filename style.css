@@ -18,7 +18,7 @@ main {
 
 .top-part {
   display: flex;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   height: 450px;
   width: 100%;
   background-color: #2d25a0;
@@ -27,6 +27,7 @@ main {
 h1 {
   font-size: 40px;
   color: white;
+  line-height: 25px;
 }
 
 .top-part-info {
