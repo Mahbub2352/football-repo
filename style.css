@@ -90,6 +90,34 @@ h1:hover{
   height: 256px;
   border-radius: 5px;
 }
+/* Creative part for trophies */
+#trophy-list{
+    text-align: center;
+    color: goldenrod;
+    font-size: 700;
+    margin-top: 40px;
+}
+.trophies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+   
+  }
+  .trophy {
+    width: 235px;
+    height: 350px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .trophy img {
+    width: 240px;
+    height: 200px;
+    border-radius: 5px;
+  }
+
 /* Third part footer info style */
 
 footer{
