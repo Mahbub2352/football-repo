@@ -6,6 +6,8 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -22,6 +24,7 @@ main {
   height: 450px;
   width: 100%;
   background-color: #2d25a0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -86,8 +89,8 @@ h1:hover{
   padding: 10px;
 }
 .player img {
-  width: 300px;
-  height: 256px;
+  width: 100%;
+  height: auto;
   border-radius: 5px;
 }
 /* Creative part for trophies & historic footage*/
@@ -142,7 +145,7 @@ footer{
     margin: 20px 0px;
 }
 .logo-details img{
-    width: 483.87px;
+    width: 483px;
     height: 110px;
 }
 .social-icon{
@@ -196,7 +199,9 @@ footer{
         
     }
     .youtube{
-       
         width:100% ;
+    }
+    .super-video p{
+        padding-left: 10px;
     }
 }
