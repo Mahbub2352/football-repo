@@ -57,6 +57,18 @@ h1 {
   margin-right: 70%;
 }
 
+/* Transition & transform style */
+
+h1:hover{
+    transform: scale(1.5);
+    transition: transform 3s ease-in-out;
+}
+
+.top-part-image img:hover{
+    transform: scale(1.1) rotate(5deg);
+    transition: transform 2s ease-in-out;
+}
+
 /* second part top players style */
 
 .players {
