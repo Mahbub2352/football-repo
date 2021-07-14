@@ -24,7 +24,7 @@ main {
   height: 450px;
   width: 100%;
   background-color: #2d25a0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 h1 {
