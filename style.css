@@ -26,7 +26,6 @@ main {
 
 h1 {
   font-size: 40px;
-  margin: 0px;
   color: white;
 }
 
@@ -64,7 +63,7 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 27px;
   grid-column-gap: 30px;
-  padding-left: 100px;
+ 
 }
 .player {
   width: 330px;
@@ -105,4 +104,40 @@ footer{
 }
 .copyright p{
     font-weight: 500;
+}
+
+/* Media Queries for mobile */
+
+@media only screen and (max-width:688px) {
+    
+    .top-part,.player{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .top-part,.players{
+        grid-template-columns: repeat(1,1fr);
+        flex: 100%;
+    }
+    .top-part-image img{
+        margin-top: 50px;
+        width: 250px;
+    }
+    .top-part-info {
+
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 10%;
+        margin-left: 10%;
+        padding-top: 50px;
+        line-height: 20px;
+    }
+    .player p{
+        padding-left: 20px;
+    }
+    .logo-details img{
+        width: 200px;
+        height: 70px;
+    }
 }
