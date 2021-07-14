@@ -155,6 +155,7 @@ footer{
 /* Media Queries for mobile */
 
 @media only screen and (max-width:688px) {
+
     
     .top-part,.player,.trophy{
         display: flex;
@@ -185,5 +186,17 @@ footer{
     .logo-details img{
         width: 200px;
         height: 70px;
+    }
+    #trophy-list{
+        margin-left: 30px;
+    }
+    .trophy{
+        width: 75%;
+        margin-left: 40px;
+        
+    }
+    .youtube{
+       
+        width:100% ;
     }
 }
