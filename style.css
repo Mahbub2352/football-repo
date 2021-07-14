@@ -151,13 +151,13 @@ footer{
 
 @media only screen and (max-width:688px) {
     
-    .top-part,.player{
+    .top-part,.player,.trophy{
         display: flex;
         flex-direction: column;
         align-items: center;
        
     }
-    .top-part,.players{
+    .top-part,.players,.trophies{
         grid-template-columns: repeat(1,1fr);
         flex: 100%;
     }
